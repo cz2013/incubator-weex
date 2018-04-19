@@ -17,7 +17,9 @@
  * under the License.
  */
 
+import { freezePrototype } from './env'
 import setup from './setup'
 import * as Vue from 'weex-vue-framework'
 
 setup({ Vue })
+freezePrototype()
